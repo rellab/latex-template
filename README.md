@@ -4,25 +4,18 @@ A template for LaTeX with VSCode
 
 ## How to use
 
-1. Clone this repository
-```sh
-git clone https://github.com/rellab/latex-template.git
-cd latex-template
-```
-2. Remove the remote repository
-```sh
-git remote rm origin
-```
-3. Add the remote repository if you need
-```sh
-git remote add origin https://xxxx
-```
-4. Open the directory with VSCode
-5. Reopen in the container (This is the command of devcontainer)
+1. `Download ZIP` on GitHub
+2. Extract the ZIP file
+3. Open the directory with VSCode
+4. Run the command `Reopen in container` (This is the command of devcontainer)
 
 ## Notes
 
-- VSCode should be installed
-- Docker engine should be installed
-
+- VSCode should be installed.
+- Docker engine should be installed.
+- Devcontainer extension of VSCode should be installed.
+- If you use GitHub clone to create the directory, please remove the remote repository;
+```sh
+git remote rm orign
+```
 
