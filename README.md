@@ -5,6 +5,10 @@ A template for LaTeX with VSCode
 ## How to use
 
 1. Clone this repository
+```sh
+git clone https://github.com/rellab/latex-template.git
+cd latex-template
+```
 2. Remove the remote repository
 ```sh
 git remote rm origin
